@@ -23,6 +23,8 @@ var cellWidth = 30, cellHeight = 30;
 
 // Функция которая вызывается при клике по клетке отображенной на экране
 function onClickHandler(cell) {
+    // Для поддержки ie6 - ie8, это нужно так как на компе в 403 ie8
+    cell = cell || window.event;
     // Определяем номер строки и номер столбца, где находится наша клетка
     var rowId = cell.target.rowId, colId = cell.target.colId;
     // Если наша клетка жива в момент щелчка
