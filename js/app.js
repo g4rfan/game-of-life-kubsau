@@ -1,11 +1,3 @@
-/**
- * Created with JetBrains WebStorm.
- * User: garffan
- * Date: 9/23/13
- * Time: 12:56 PM
- * To change this template use File | Settings | File Templates.
- */
-
 /*
     Хранилище всех клеток, представляет собой двуммерный массив(матрица)
     Количество строк равно знчению переменной rowsCount
